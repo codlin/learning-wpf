@@ -1,0 +1,15 @@
+﻿<Window x:Class="Windows.DialogBoxOverview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Windows"
+        mc:Ignorable="d"
+        Title="DialogBoxOverview" Height="450" Width="800">
+    <StackPanel>
+        <Button Click="Open_Msg_Dialog">Message Dialog Box</Button>
+        <Button Click="Open_File_Dialog">Common Dialog Box - Open File</Button>
+        <Button Click="Save_File_Dialog">Common Dialog Box - Save File</Button>
+        <Button Click="Print_Dialog">Common Dialog Box - Print</Button>
+    </StackPanel>
+</Window>

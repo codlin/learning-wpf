@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 I:\github.com\learning-wpf\Windows\App.xaml
-41107601907
+15-151816641
 
-6-305569590
+17-1023374773
 1981462702791
-ActivatedWindow.xaml;ChildWindow2.xaml;ChilldWindow1.xaml;MainWindow.xaml;
+ActivatedWindow.xaml;ChildWindow2.xaml;ChilldWindow1.xaml;CloseWindow.xaml;DialogBoxOverview.xaml;GetMainWindow.xaml;MainWindow.xaml;NonRectangularWindow.xaml;SizedWindow.xaml;WindowAppearanceWindow.xaml;WindowLocation.xaml;WindowResizeMode.xaml;WindowStateWindow.xaml;WindowStyleWindow.xaml;ZWindow.xaml;
 
 False
 

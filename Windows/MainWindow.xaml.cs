@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace Windows {
     /// <summary>
@@ -53,6 +40,70 @@ namespace Windows {
              * - 然后按照预期，响应用户操作引发窗口的 Deactivated 和 Activated 事件。
             */
             window.ShowActivated = false;
+            window.Show();
+        }
+
+        private void Open_Window_With_Exit_Menu(object sender, RoutedEventArgs e) {
+            CloseWindow window = new CloseWindow();
+            window.Show();
+        }
+
+        private void StartupLocation_CenterOwner(object sender, RoutedEventArgs e) {
+            WindowLocation window = new WindowLocation();
+            window.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            window.Show();
+        }
+
+        private void StartupLocation_CenterScreen(object sender, RoutedEventArgs e) {
+            WindowLocation window = new WindowLocation();
+            window.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            window.Show();
+        }
+
+        private void StartupLocation_Manual(object sender, RoutedEventArgs e) {
+            WindowLocation window = new WindowLocation();
+            window.WindowStartupLocation = WindowStartupLocation.Manual;
+            // 如果将启动位置指定为 Manual，并且未设置 Left 和 Top 属性，Window将要求操作系统指定其显示位置。
+            window.Top = 100;
+            window.Left = 100;
+            window.Show();
+        }
+
+        private void Set_Windown_Z(object sender, RoutedEventArgs e) {
+            ZWindow window = new ZWindow();
+            window.Topmost = true;
+            window.Show();
+        }
+
+        private void Open_Sized_Windown(object sender, RoutedEventArgs e) {
+            SizedWindow window = new SizedWindow();
+            window.Show();
+        }
+
+        private void ShowInTaskBar(object sender, RoutedEventArgs e) {
+            WindowStateWindow window = new WindowStateWindow();
+            window.ShowInTaskbar = true;
+            window.Show();
+        }
+
+        private void NotShowInTaskBar(object sender, RoutedEventArgs e) {
+            WindowStateWindow window = new WindowStateWindow();
+            window.ShowInTaskbar = false;
+            window.Show();
+        }
+
+        private void WindowApperance(object sender, RoutedEventArgs e) {
+            WindowAppearanceWindow window = new();
+            window.Show();
+        }
+
+        private void Dialog_View(object sender, RoutedEventArgs e) {
+            DialogBoxOverview window = new DialogBoxOverview();
+            window.Show();
+        }
+
+        private void GetMainWindow(object sender, RoutedEventArgs e) {
+            GetMainWindow window = new GetMainWindow();
             window.Show();
         }
     }

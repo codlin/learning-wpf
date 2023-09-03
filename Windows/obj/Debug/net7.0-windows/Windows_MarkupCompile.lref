@@ -1,7 +1,18 @@
 ﻿
 
-FI:\github.com\learning-wpf\Windows\MainWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\ActivatedWindow.xaml;;
 FI:\github.com\learning-wpf\Windows\ChildWindow2.xaml;;
 FI:\github.com\learning-wpf\Windows\ChilldWindow1.xaml;;
-FI:\github.com\learning-wpf\Windows\ActivatedWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\CloseWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\DialogBoxOverview.xaml;;
+FI:\github.com\learning-wpf\Windows\MainWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\NonRectangularWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\SizedWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\WindowAppearanceWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\WindowLocation.xaml;;
+FI:\github.com\learning-wpf\Windows\WindowResizeMode.xaml;;
+FI:\github.com\learning-wpf\Windows\WindowStateWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\WindowStyleWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\ZWindow.xaml;;
+FI:\github.com\learning-wpf\Windows\GetMainWindow.xaml;;
 

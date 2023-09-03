@@ -11,6 +11,17 @@
         <Button Click="Button_Click">Click this button</Button>
         <Button Click="Open_Activate_Window">Open and activate a window</Button>
         <Button Click="Open_notActivate_Window">Open but not activate a window</Button>
+        <Button Click="Open_Window_With_Exit_Menu">Open a window with exit memu</Button>
+        <Button Click="StartupLocation_CenterOwner">Open a window with startup location is CenterOwner</Button>
+        <Button Click="StartupLocation_CenterScreen">Open a window with startup location is CenterScreen</Button>
+        <Button Click="StartupLocation_Manual">Open a window with startup location is Manual</Button>
+        <Button Click="Set_Windown_Z">Open a window with top z</Button>
+        <Button Click="Open_Sized_Windown">Open a sized window</Button>
+        <Button Click="ShowInTaskBar">A window show in task bar</Button>
+        <Button Click="NotShowInTaskBar">A window show not in task bar</Button>
+        <Button Click="WindowApperance">Window Apperance</Button>
+        <Button Click="Dialog_View">Dialog Overview</Button>
+        <Button Click="GetMainWindow">Get Main Window Title</Button>
     </StackPanel>
-    
+
 </Window>
