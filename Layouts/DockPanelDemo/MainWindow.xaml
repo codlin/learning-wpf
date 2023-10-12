@@ -1,0 +1,14 @@
+﻿<Window x:Class="DockPanelDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DockPanelDemo"
+        mc:Ignorable="d"
+        Title="DockPanel Demo" Height="450" Width="800">
+    <StackPanel>
+        <Button Click="DockLeft">多个元素停靠左边演示</Button>
+        <Button Click="LastChildFillFalse">最后一个子元素不占满剩余空间</Button>
+        <Button Click="LastChildFillTrue">最后一个子元素占满剩余空间（默认）</Button>
+    </StackPanel>
+</Window>

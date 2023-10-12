@@ -1,0 +1,15 @@
+﻿<Window x:Class="CanvasDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CanvasDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Height="400" Width="600" Background="LightBlue">
+        <Button Canvas.Top="10" Canvas.Left="10" Click="DisplayCanvas">代码实现</Button>
+        <TextBlock Canvas.Top="10" Canvas.Left="250" FontSize="16">Canvas 画布</TextBlock>
+        <Rectangle Fill="Blue" Stroke="Azure" Width="250" Height="200" Canvas.Left="200" Canvas.Top="100" />
+        <Ellipse Fill="Red" Stroke="Azure" Width="250" Height="250" Canvas.Left="100" Canvas.Top="200" />
+    </Canvas>
+</Window>

@@ -1,0 +1,153 @@
+﻿<Window x:Class="StackPanelDemo.VerticalLayoutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StackPanelDemo"
+        mc:Ignorable="d"
+        Title="VerticalLayoutWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <!--<Setter Property="VerticalAlignment" Value="Center" />-->
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+            <RowDefinition Height="auto"  />
+            <RowDefinition />
+            <RowDefinition Height="auto"  />
+            <RowDefinition />
+            <RowDefinition Height="auto"  />
+            <RowDefinition />
+            <RowDefinition Height="auto"  />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0">垂直堆叠, VerticalAlignment, HorizontalAlignment均为默认 Stretch</Label>
+        <StackPanel Grid.Row="1"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Stretch"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>面板拉伸所以背景色占满表格</Button>
+        </StackPanel>
+        <Label Grid.Row="2">垂直堆叠，VerticalAlignment=Stretch</Label>
+        <StackPanel Grid.Row="3"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Left"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Left 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="3"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Center"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="3"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Right"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+        <Label Grid.Row="4">垂直堆叠，VerticalAlignment=Bottom</Label>
+        <StackPanel Grid.Row="5"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Left"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Left 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="5"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Center"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="5"
+                    Orientation="Vertical" 
+                    FlowDirection="LeftToRight"
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Right"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+        <Label Grid.Row="6">垂直堆叠，VerticalAlignment=Center</Label>
+        <StackPanel Grid.Row="7"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Left 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="7"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="7"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+        <Label Grid.Row="8">垂直堆叠，VerticalAlignment=Top</Label>
+        <StackPanel Grid.Row="9"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Left 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="9"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="9"
+                    Orientation="Vertical" 
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right"
+                    Background="Aqua"
+                   >
+            <Button>按钮一</Button>
+            <Button>水平 Center 对齐</Button>
+        </StackPanel>
+    </Grid>
+</Window>
+

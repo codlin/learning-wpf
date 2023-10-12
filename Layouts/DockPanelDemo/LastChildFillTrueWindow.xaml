@@ -1,0 +1,22 @@
+﻿<Window x:Class="DockPanelDemo.LastChildFillTrueWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DockPanelDemo"
+        mc:Ignorable="d"
+        Title="最后一个子元素占满剩余空间" Height="450" Width="800">
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Top" Background="LightBlue">1. Dock Top</TextBlock>
+        <TextBlock DockPanel.Dock="Left" Background="Lavender">2. Dock Left</TextBlock>
+        <TextBlock DockPanel.Dock="Right" Background="Bisque">3. Dock Right</TextBlock>
+        <TextBlock DockPanel.Dock="Bottom" Background="LightYellow">4. Dock Bottom</TextBlock>
+        <DockPanel Background="LightGreen">
+            <TextBlock DockPanel.Dock="Top" Background="DeepSkyBlue">5. Dock Top</TextBlock>
+            <TextBlock DockPanel.Dock="Right" Background="CornflowerBlue">6. Dock Right</TextBlock>
+            <TextBlock DockPanel.Dock="Bottom" Background="Fuchsia">7. Dock Bottom</TextBlock>
+            <TextBlock DockPanel.Dock="Left" Background="Khaki">8. Dock Left</TextBlock>
+            <TextBlock Background="Azure">Last Child Element</TextBlock>
+        </DockPanel>
+    </DockPanel>
+</Window>
