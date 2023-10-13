@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBinding", "DataBinding
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityBinding", "DataBinding\PriorityBinding\PriorityBinding.csproj", "{1D630FCF-680A-485C-A702-02F0315C756F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDataSource", "DataBinding\XmlDataSource\XmlDataSource.csproj", "{45D67C6B-8B4D-47A0-8693-F95DF4CE384F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeOnlyBinding", "DataBinding\CodeOnlyBinding\CodeOnlyBinding.csproj", "{0272EBF3-AFB3-466D-950E-33DC0A76EC75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +137,14 @@ Global
 		{1D630FCF-680A-485C-A702-02F0315C756F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D630FCF-680A-485C-A702-02F0315C756F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D630FCF-680A-485C-A702-02F0315C756F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D67C6B-8B4D-47A0-8693-F95DF4CE384F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D67C6B-8B4D-47A0-8693-F95DF4CE384F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D67C6B-8B4D-47A0-8693-F95DF4CE384F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D67C6B-8B4D-47A0-8693-F95DF4CE384F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0272EBF3-AFB3-466D-950E-33DC0A76EC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0272EBF3-AFB3-466D-950E-33DC0A76EC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0272EBF3-AFB3-466D-950E-33DC0A76EC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0272EBF3-AFB3-466D-950E-33DC0A76EC75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +169,8 @@ Global
 		{A75A1404-59CF-4807-8B23-BCBB1D6C1A7A} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{BD55B7E4-9D2E-4EB7-BD9D-F9B89D877AA8} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{1D630FCF-680A-485C-A702-02F0315C756F} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{45D67C6B-8B4D-47A0-8693-F95DF4CE384F} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{0272EBF3-AFB3-466D-950E-33DC0A76EC75} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEDBF067-13E5-41C9-B41C-187DD8CB68B3}
