@@ -24,6 +24,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Windows", "ApplicationManagement\Windows\Windows.csproj", "{222DB3E9-BABB-4025-B45C-60B548B3C17F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBinding", "DataBinding", "{E7C341E5-7A10-4188-84B8-99903F78FC24}"
+	ProjectSection(SolutionItems) = preProject
+		DataBinding\README.md = DataBinding\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueConverterFormatStrings", "DataBinding\ValueConverter\ValueConverterFormatStrings.csproj", "{837FE92E-2AD9-45FD-8092-604E053DDEC5}"
 EndProject
@@ -45,15 +48,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingDPToDP", "DataBindin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectionalBinding", "DataBinding\DirectionalBinding\DirectionalBinding.csproj", "{15CA47BC-5B7D-47C3-95FA-CC0466D22555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingToStringFomat", "DataBinding\DataBindingToStringFomat\DataBindingToStringFomat.csproj", "{A75A1404-59CF-4807-8B23-BCBB1D6C1A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBindingToStringFomat", "DataBinding\DataBindingToStringFomat\DataBindingToStringFomat.csproj", "{A75A1404-59CF-4807-8B23-BCBB1D6C1A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBinding", "DataBinding\MultiBinding\MultiBinding.csproj", "{BD55B7E4-9D2E-4EB7-BD9D-F9B89D877AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBinding", "DataBinding\MultiBinding\MultiBinding.csproj", "{BD55B7E4-9D2E-4EB7-BD9D-F9B89D877AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityBinding", "DataBinding\PriorityBinding\PriorityBinding.csproj", "{1D630FCF-680A-485C-A702-02F0315C756F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriorityBinding", "DataBinding\PriorityBinding\PriorityBinding.csproj", "{1D630FCF-680A-485C-A702-02F0315C756F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDataSource", "DataBinding\XmlDataSource\XmlDataSource.csproj", "{45D67C6B-8B4D-47A0-8693-F95DF4CE384F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDataSource", "DataBinding\XmlDataSource\XmlDataSource.csproj", "{45D67C6B-8B4D-47A0-8693-F95DF4CE384F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeOnlyBinding", "DataBinding\CodeOnlyBinding\CodeOnlyBinding.csproj", "{0272EBF3-AFB3-466D-950E-33DC0A76EC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeOnlyBinding", "DataBinding\CodeOnlyBinding\CodeOnlyBinding.csproj", "{0272EBF3-AFB3-466D-950E-33DC0A76EC75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionBinding", "DataBinding\CollectionBinding\CollectionBinding.csproj", "{50C1F1A7-D0B5-4B55-8413-D20F9A27A1DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeCollections", "DataBinding\CompositeCollections\CompositeCollections.csproj", "{1AAD08B6-3CE0-48DC-AD48-247B21421DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionViewSource", "DataBinding\CollectionViewSource\CollectionViewSource.csproj", "{20741A10-A83E-4F7A-B5B2-04E0049C7AA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +154,18 @@ Global
 		{0272EBF3-AFB3-466D-950E-33DC0A76EC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0272EBF3-AFB3-466D-950E-33DC0A76EC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0272EBF3-AFB3-466D-950E-33DC0A76EC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C1F1A7-D0B5-4B55-8413-D20F9A27A1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C1F1A7-D0B5-4B55-8413-D20F9A27A1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C1F1A7-D0B5-4B55-8413-D20F9A27A1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C1F1A7-D0B5-4B55-8413-D20F9A27A1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAD08B6-3CE0-48DC-AD48-247B21421DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAD08B6-3CE0-48DC-AD48-247B21421DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAD08B6-3CE0-48DC-AD48-247B21421DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAD08B6-3CE0-48DC-AD48-247B21421DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20741A10-A83E-4F7A-B5B2-04E0049C7AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20741A10-A83E-4F7A-B5B2-04E0049C7AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20741A10-A83E-4F7A-B5B2-04E0049C7AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20741A10-A83E-4F7A-B5B2-04E0049C7AA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +192,9 @@ Global
 		{1D630FCF-680A-485C-A702-02F0315C756F} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{45D67C6B-8B4D-47A0-8693-F95DF4CE384F} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{0272EBF3-AFB3-466D-950E-33DC0A76EC75} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{50C1F1A7-D0B5-4B55-8413-D20F9A27A1DA} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{1AAD08B6-3CE0-48DC-AD48-247B21421DF0} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{20741A10-A83E-4F7A-B5B2-04E0049C7AA0} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEDBF067-13E5-41C9-B41C-187DD8CB68B3}
