@@ -72,6 +72,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "DataBinding\Linq\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingToMethod", "DataBinding\BindingToMethod\BindingToMethod.csproj", "{5F60B2F6-732F-4C39-BD14-3027600F160D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortFilter", "DataBinding\SortFilter\SortFilter.csproj", "{7188E05A-1490-4055-87AE-E1A7BE98F50F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -190,6 +192,10 @@ Global
 		{5F60B2F6-732F-4C39-BD14-3027600F160D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F60B2F6-732F-4C39-BD14-3027600F160D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F60B2F6-732F-4C39-BD14-3027600F160D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7188E05A-1490-4055-87AE-E1A7BE98F50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7188E05A-1490-4055-87AE-E1A7BE98F50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7188E05A-1490-4055-87AE-E1A7BE98F50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7188E05A-1490-4055-87AE-E1A7BE98F50F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +229,7 @@ Global
 		{3987B93B-7AC3-41AF-9360-8E42AB710B3D} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{BE2B7E64-3CB9-429E-912B-282D15BDD975} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{5F60B2F6-732F-4C39-BD14-3027600F160D} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{7188E05A-1490-4055-87AE-E1A7BE98F50F} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEDBF067-13E5-41C9-B41C-187DD8CB68B3}
