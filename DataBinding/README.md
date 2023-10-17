@@ -1,7 +1,7 @@
 # Intro to projects
 
 +---------------+--------------+
-| Name          | Category    |
+| Name          | Category     |
 +---------------+--------------+
-| BindingDPtoDP | Binding    |
+| BindingDPtoDP | Binding      |
 +---------------+--------------+

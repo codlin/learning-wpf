@@ -1,0 +1,79 @@
+﻿<Window
+    x:Class="BindingToMethod.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:BindingToMethod"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:system="clr-namespace:System;assembly=System.Runtime"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <ObjectDataProvider
+            x:Key="ConvertTemp"
+            MethodName="ConvertTemp"
+            ObjectType="{x:Type local:TemperatureScale}">
+            <ObjectDataProvider.MethodParameters>
+                <system:Double>
+                    0
+                </system:Double>
+                <local:TempType>Celsius</local:TempType>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <local:DoubleToString x:Key="DoubleToString" />
+    </Window.Resources>
+
+    <Border
+        Margin="5"
+        Padding="8"
+        BorderBrush="Cyan"
+        BorderThickness="1">
+        <Grid Margin="50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="75" />
+                <ColumnDefinition Width="75" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="1" HorizontalAlignment="Right">Enter the degree to convert:</Label>
+            <TextBox
+                Name="tb"
+                Grid.Row="1"
+                Grid.Column="1">
+                <TextBox.Text>
+                    <Binding
+                        BindsDirectlyToSource="True"
+                        Converter="{StaticResource DoubleToString}"
+                        Path="MethodParameters[0]"
+                        Source="{StaticResource ConvertTemp}"
+                        UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <local:InvalidCharacterRule />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ComboBox
+                Grid.Row="1"
+                Grid.Column="2"
+                SelectedValue="{Binding Source={StaticResource ConvertTemp}, Path=MethodParameters[1], BindsDirectlyToSource=True}">
+                <local:TempType>Celsius</local:TempType>
+                <local:TempType>Fahrenheit</local:TempType>
+            </ComboBox>
+            <Label Grid.Row="2" HorizontalAlignment="Right">Result:</Label>
+            <Label
+                Grid.Row="2"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Content="{Binding Source={StaticResource ConvertTemp}}" />
+        </Grid>
+    </Border>
+</Window>
