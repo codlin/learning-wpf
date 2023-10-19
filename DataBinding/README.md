@@ -25,3 +25,4 @@
 | DataTemplatingInto | DataTemplate |
 | HiearchicalDataTemplate | DataTemplate |
 | VauleConverterFormateStrings | ValueConverter |
+| ValidateItemSample | Validation |

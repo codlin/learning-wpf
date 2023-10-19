@@ -86,6 +86,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalDataTemplate", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindValidation", "DataBinding\BindValidation\BindValidation.csproj", "{1C69936B-365B-4B4F-ACF0-D44499BF2954}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayerValidation", "DataBinding\BusinessLayerValidation\BusinessLayerValidation.csproj", "{B98FE955-0BEE-4504-A16C-75113B8E7D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateItemSample", "DataBinding\ValidateItemSample\ValidateItemSample.csproj", "{1305F350-2413-46D8-9783-B1DC3EED81CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -232,6 +236,14 @@ Global
 		{1C69936B-365B-4B4F-ACF0-D44499BF2954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C69936B-365B-4B4F-ACF0-D44499BF2954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C69936B-365B-4B4F-ACF0-D44499BF2954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98FE955-0BEE-4504-A16C-75113B8E7D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98FE955-0BEE-4504-A16C-75113B8E7D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98FE955-0BEE-4504-A16C-75113B8E7D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98FE955-0BEE-4504-A16C-75113B8E7D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1305F350-2413-46D8-9783-B1DC3EED81CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1305F350-2413-46D8-9783-B1DC3EED81CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1305F350-2413-46D8-9783-B1DC3EED81CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1305F350-2413-46D8-9783-B1DC3EED81CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -272,6 +284,8 @@ Global
 		{8E245BE0-B916-4607-9700-73BA4E810B43} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{F03D5597-408C-4E86-A5F3-A9941003B55D} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{1C69936B-365B-4B4F-ACF0-D44499BF2954} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{B98FE955-0BEE-4504-A16C-75113B8E7D37} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{1305F350-2413-46D8-9783-B1DC3EED81CC} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEDBF067-13E5-41C9-B41C-187DD8CB68B3}

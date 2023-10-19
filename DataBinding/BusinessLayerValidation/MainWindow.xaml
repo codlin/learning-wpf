@@ -1,0 +1,40 @@
+﻿<Window
+    x:Class="BusinessLayerValidation.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:BusinessLayerValidation"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <StackPanel>
+        <StackPanel.Resources>
+            <local:Person x:Key="person" />
+
+            <Style x:Key="TextBoxInError" TargetType="TextBox">
+                <Style.Triggers>
+                    <Trigger Property="Validation.HasError" Value="True">
+                        <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </StackPanel.Resources>
+        <TextBlock>Enter your age:</TextBlock>
+        <TextBox Style="{StaticResource TextBoxInError}">
+            <TextBox.Text>
+                <Binding
+                    Path="Age"
+                    Source="{StaticResource person}"
+                    UpdateSourceTrigger="PropertyChanged"
+                    ValidatesOnDataErrors="True">
+                    <Binding.ValidationRules>
+                        <DataErrorValidationRule />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <TextBlock>Mouse-over to see the validation error message.</TextBlock>
+    </StackPanel>
+</Window>
