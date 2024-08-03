@@ -66,29 +66,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionViewSource", "Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EditingCollections", "DataBinding\EditingCollections\EditingCollections.csproj", "{008EBB75-E978-4217-ADF2-91371FA68800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grouping", "DataBinding\Grouping\Grouping.csproj", "{3987B93B-7AC3-41AF-9360-8E42AB710B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grouping", "DataBinding\Grouping\Grouping.csproj", "{3987B93B-7AC3-41AF-9360-8E42AB710B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "DataBinding\Linq\Linq.csproj", "{BE2B7E64-3CB9-429E-912B-282D15BDD975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "DataBinding\Linq\Linq.csproj", "{BE2B7E64-3CB9-429E-912B-282D15BDD975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingToMethod", "DataBinding\BindingToMethod\BindingToMethod.csproj", "{5F60B2F6-732F-4C39-BD14-3027600F160D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingToMethod", "DataBinding\BindingToMethod\BindingToMethod.csproj", "{5F60B2F6-732F-4C39-BD14-3027600F160D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortFilter", "DataBinding\SortFilter\SortFilter.csproj", "{7188E05A-1490-4055-87AE-E1A7BE98F50F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortFilter", "DataBinding\SortFilter\SortFilter.csproj", "{7188E05A-1490-4055-87AE-E1A7BE98F50F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterDetail", "DataBinding\MasterDetail\MasterDetail.csproj", "{1CF5BAEB-0CE4-4BF2-9C67-72F7BADA6452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterDetail", "DataBinding\MasterDetail\MasterDetail.csproj", "{1CF5BAEB-0CE4-4BF2-9C67-72F7BADA6452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterDetailXml", "DataBinding\MasterDetailXml\MasterDetailXml.csproj", "{9D0351C0-A75E-4450-B221-CBFC6F4CC2F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterDetailXml", "DataBinding\MasterDetailXml\MasterDetailXml.csproj", "{9D0351C0-A75E-4450-B221-CBFC6F4CC2F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateSource", "DataBinding\UpdateSource\UpdateSource.csproj", "{D47292F4-542C-498D-8386-ECA4D74E306D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateSource", "DataBinding\UpdateSource\UpdateSource.csproj", "{D47292F4-542C-498D-8386-ECA4D74E306D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplatingIntro", "DataBinding\DataTemplatingIntro\DataTemplatingIntro.csproj", "{8E245BE0-B916-4607-9700-73BA4E810B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTemplatingIntro", "DataBinding\DataTemplatingIntro\DataTemplatingIntro.csproj", "{8E245BE0-B916-4607-9700-73BA4E810B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalDataTemplate", "DataBinding\HierarchicalDataTemplate\HierarchicalDataTemplate.csproj", "{F03D5597-408C-4E86-A5F3-A9941003B55D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HierarchicalDataTemplate", "DataBinding\HierarchicalDataTemplate\HierarchicalDataTemplate.csproj", "{F03D5597-408C-4E86-A5F3-A9941003B55D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindValidation", "DataBinding\BindValidation\BindValidation.csproj", "{1C69936B-365B-4B4F-ACF0-D44499BF2954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindValidation", "DataBinding\BindValidation\BindValidation.csproj", "{1C69936B-365B-4B4F-ACF0-D44499BF2954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayerValidation", "DataBinding\BusinessLayerValidation\BusinessLayerValidation.csproj", "{B98FE955-0BEE-4504-A16C-75113B8E7D37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayerValidation", "DataBinding\BusinessLayerValidation\BusinessLayerValidation.csproj", "{B98FE955-0BEE-4504-A16C-75113B8E7D37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateItemSample", "DataBinding\ValidateItemSample\ValidateItemSample.csproj", "{1305F350-2413-46D8-9783-B1DC3EED81CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateItemSample", "DataBinding\ValidateItemSample\ValidateItemSample.csproj", "{1305F350-2413-46D8-9783-B1DC3EED81CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Effects", "Effects", "{BF93954D-A759-4B1F-BA5E-1E78C90D5C3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShadowEffect", "ShadowEffect\ShadowEffect.csproj", "{17229A46-4ACF-4BA6-978D-5BA8200BA3A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightButtonDemo", "LightButtonDemo\LightButtonDemo.csproj", "{49C95E14-3A77-4259-BAAF-D34F135C1AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -244,6 +250,14 @@ Global
 		{1305F350-2413-46D8-9783-B1DC3EED81CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1305F350-2413-46D8-9783-B1DC3EED81CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1305F350-2413-46D8-9783-B1DC3EED81CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17229A46-4ACF-4BA6-978D-5BA8200BA3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17229A46-4ACF-4BA6-978D-5BA8200BA3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17229A46-4ACF-4BA6-978D-5BA8200BA3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17229A46-4ACF-4BA6-978D-5BA8200BA3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C95E14-3A77-4259-BAAF-D34F135C1AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C95E14-3A77-4259-BAAF-D34F135C1AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C95E14-3A77-4259-BAAF-D34F135C1AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C95E14-3A77-4259-BAAF-D34F135C1AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,6 +300,7 @@ Global
 		{1C69936B-365B-4B4F-ACF0-D44499BF2954} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{B98FE955-0BEE-4504-A16C-75113B8E7D37} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
 		{1305F350-2413-46D8-9783-B1DC3EED81CC} = {E7C341E5-7A10-4188-84B8-99903F78FC24}
+		{17229A46-4ACF-4BA6-978D-5BA8200BA3A0} = {BF93954D-A759-4B1F-BA5E-1E78C90D5C3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEDBF067-13E5-41C9-B41C-187DD8CB68B3}
