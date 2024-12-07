@@ -1,0 +1,24 @@
+﻿<Window
+    x:Class="CanvasDemo.RegionToolWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:CanvasDemo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:CanvasDemo.RegionTools.ViewModels"
+    Title="RegionToolWindow"
+    Width="800"
+    Height="450"
+    d:DataContext="{d:DesignInstance vm:RegionToolWindowViewModel}"
+    mc:Ignorable="d">
+    <StackPanel>
+        <ToggleButton
+            x:Name="regionRectBtn"
+            Content="矩形"
+            IsChecked="{Binding IsRegionRectBtnChecked}" />
+        <Button
+            x:Name="clearRegion"
+            Command="{Binding ClearRegionCommand}"
+            Content="清除选取" />
+    </StackPanel>
+</Window>
